@@ -12,11 +12,14 @@ p{
   display: block;
 }
 
+.all-video-preview{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 45px;
+}
+
 .video-preview{
-  display: inline-block;
-  width: 300px;
-  vertical-align: top;
-  margin-right: 15px;
   cursor: pointer;
 }
 
@@ -25,7 +28,7 @@ p{
 }
 
 .img-thumbnail{
-  width: 300px;
+  width: 100%;
   display: block;
 }
 
