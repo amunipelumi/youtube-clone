@@ -12,35 +12,26 @@ p{
   display: block;
 }
 
-.img-thumbnail{
-  width: 300px;
-  display: block;
-  border-radius: 10px;
-}
-
-.info-div{
-  margin-top: 12px;
-}
-
-.video-preview,
-.channel-img,
-.video-desc{
-  display: inline-block;
-}
-
 .video-preview{
+  display: inline-block;
   width: 300px;
   vertical-align: top;
   margin-right: 15px;
+  cursor: pointer;
 }
 
-.channel-img{
-  width: 50px;
-  vertical-align: top;
+.thumbnail-div{
+  margin-bottom: 12px;
 }
 
-.video-desc{
-  width: 200px;
+.img-thumbnail{
+  width: 300px;
+  display: block;
+}
+
+.info-div-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 .profile-pic{
