@@ -1,17 +1,3 @@
-
-body{
-  font-family: Roboto, Arial;
-}
-
-p{
-  margin: 0;
-}
-
-.search-bar{
-  margin: auto;
-  display: block;
-}
-
 .all-video-preview{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

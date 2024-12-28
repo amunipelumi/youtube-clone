@@ -1,0 +1,30 @@
+.body-header{
+  /* background-color: gray; */
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.left-head{
+  background-color: red;
+  width: 100px;
+}
+
+.middle-head{
+  /* background-color: green; */
+  max-width: 600px;
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.right-head{
+  background-color: blue;
+  width: 200px;
+}
+
+.search-bar{
+  width: 100%;
+}
