@@ -1,10 +1,17 @@
 .body-header{
-  /* background-color: gray; */
+  background-color: rgb(251, 251, 251);
   height: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   /* align-items: center; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(220, 209, 209);
 }
 
 .left-head{
