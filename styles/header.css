@@ -1,6 +1,6 @@
 .body-header{
   background-color: rgb(251, 251, 251);
-  height: 50px;
+  height: 55px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -10,9 +10,9 @@
   left: 0;
   right: 0;
   border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(220, 209, 209);
-  z-index: 100;
+  /* border-bottom-style: solid; */
+  /* border-bottom-color: rgba(204, 196, 196, 0.943); */
+  z-index: 10;
 }
 
 .left-head{
